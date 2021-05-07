@@ -16,28 +16,28 @@ const routes: Array<RouteConfig> = [
     component: Home
   },
   {
-    path: "/kata01",
-    name: "Kata01",
+    path: "/kata1",
+    name: "Kata1",
     component: Kata01
   },
   {
-    path: "/kata02",
-    name: "Kata02",
+    path: "/kata2",
+    name: "Kata2",
     component: Kata02
   },
   {
-    path: "/kata03",
-    name: "Kata03",
+    path: "/kata3",
+    name: "Kata3",
     component: Kata03
   },
   {
-    path: "/kata04",
-    name: "Kata04",
+    path: "/kata4",
+    name: "Kata4",
     component: Kata04
   },
   {
-    path: "/kata05",
-    name: "Kata05",
+    path: "/kata5",
+    name: "Kata5",
     component: Kata05
   }
 ];

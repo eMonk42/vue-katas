@@ -1,6 +1,7 @@
 <template lang="">
   <div>
     <h1>Kata5.vue here</h1>
+    <router-link to="/">Home</router-link>
   </div>
 </template>
 <script>

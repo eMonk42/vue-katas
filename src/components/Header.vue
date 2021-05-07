@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Header</h1>
+    <h3>Feel free to check out these:</h3>
   </div>
 </template>
 
