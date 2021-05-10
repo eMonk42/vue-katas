@@ -1,10 +1,10 @@
 <template lang="">
-  <div>
+  <div class="wrapper">
     <h1>Kata3.vue here</h1>
     <p>Enter text here to be converted to L3375P34K</p>
     <form>
       <label for="input"></label>
-      <input type="text" id="input" v-model="text" />
+      <textarea spellcheck="false" id="input" v-model="text" />
     </form>
     <p>{{ textToLeet }}</p>
     <router-link to="/">Home</router-link>
@@ -50,16 +50,22 @@ export default {
 };
 </script>
 <style lang="scss">
-div {
+.wrapper {
   width: 50%;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  //border: 1px solid green;
   * {
     margin: 0 auto;
     padding: 1rem 0;
   }
-  input {
-    width: 100%;
+  textarea {
+    min-width: 30vw;
+    max-width: 100%;
     border: 1px solid gold;
+    padding: 1rem 1rem;
   }
 }
 </style>
