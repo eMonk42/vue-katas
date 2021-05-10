@@ -40,6 +40,7 @@ export default {
         console.log(this.wikiContent);
       } catch (err) {
         console.log(err.message);
+        this.wikiContent.extract = "Please try this in Chrome!";
       } finally {
         this.isloading = false;
       }
